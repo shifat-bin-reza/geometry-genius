@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for all inputs */
+input {
+    width: 80px;
+}
+
+.interactive-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.geometry-title {
+    color: #686666;
+    font-weight: 400;
+}
+
+.button-all {
+    background-color: #1090D8;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+#parallelogram-display-none, #rhombus-display-none, #pentagon-display-none, #ellipse-display-none {
+    display: none;
+}
